@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad5bfc54c0e96a45a9af5e5867cadd6, type: 3}
+  m_Name: Castle
+  m_EditorClassIdentifier: 
+  buildingType: 2
+  buildingState:
+  - {fileID: 100000, guid: ee920d8c79ea3684abbabe92ec16e8c4, type: 3}
+  - {fileID: 100000, guid: a65bd061cdf100b4ba4e4379a5ae6aec, type: 3}
+  - {fileID: 100000, guid: 637b3bb1a53fd584b8b2f29eddb05290, type: 3}
+  buildingResources:
+  - resourceName: Wood
+    resourcesType: 0
+    count: 10
+  - resourceName: Wood
+    resourcesType: 0
+    count: 40
